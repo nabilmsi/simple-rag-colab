@@ -27,9 +27,12 @@ A small Retrieval-Augmented Generation (RAG) system that answers questions using
 
 **Question:** Which retriever does RAG use?
 
-**Answer:** (paste the model's answer here)
+**Answer:** RAG uses a retriever that is initialized using DPR's retriever, which uses retrieval supervision on Natural Questions and TriviaQA.
 
-**Sources:** (paste the cited pages here, e.g. rag_paper.pdf p.2)
+**Sources:**   [1] rag_paper.pdf p.5 (score 0.637)
+  [2] rag_paper.pdf p.7 (score 0.565)
+  [3] rag_paper.pdf p.2 (score 0.442)
+  [4] rag_paper.pdf p.9 (score 0.415)
 
 ## Limitations
 
